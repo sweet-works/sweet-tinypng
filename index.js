@@ -14,6 +14,7 @@ const { URL } = require('url');
 
 
 const cwd = process.cwd();
+const argv = process.argv;
 
 const root = cwd;
   exts = ['.jpg', '.png'],
@@ -96,8 +97,10 @@ function fileUpload(img) {
 // 该方法被循环调用,请求图片数据
 function fileUpdate(imgpath, obj) {
   const outputDir = path.join(cwd , 'output');
+  if(argv[2]){
+      imgpath = imgpath.replace(argv[2], '')
+  }
   imgpath = path.join(cwd , 'output', imgpath.replace(cwd, ''));
-
   if(!fs.existsSync(outputDir)) {
     fs.mkdirSync(outputDir);
   }

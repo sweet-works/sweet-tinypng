@@ -1,6 +1,6 @@
 {
   "name": "sweet-tinypng",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "图片压缩",
   "main": "index.js",
   "bin": {
