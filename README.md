@@ -9,7 +9,7 @@
 ## 使用方法
 安装：
 ```bash
-npm i sweet-tinypng -g # or yarn global add super-tinypng
+npm i sweet-tinypng -g # or yarn global add sweet-tinypng
 ```
 
 然后，在命令行进入到你想要压缩图片的目录，执行：
