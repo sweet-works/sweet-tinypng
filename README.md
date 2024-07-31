@@ -1,6 +1,3 @@
-## 代码来源
-作者:[zhanyuzhang](https://github.com/zhanyuzhang/super-tinypng)
-使用中发现插件不能使用了,最后知道是API路径替换,作者太忙没有更新,自己就借鉴作者代码升级优化,如有侵权联系删除!
 
 ## 初衷
 [tinypng](https://tinypng.com/) 网页版，其实是挺方便的。但是他有上传图片数量的限制，比如每天只能上传 20 张，如果超过这个数量，就会断断续续的出现 `Too many files uploaded at once` 错误 。所以才决定使用 Node 来开发一个绕过数量限制的 npm 包。
